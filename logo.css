@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ max-width: 1440px;
+}
+body{
+ width:90%;
+ margin:40px;
+ font-family: 'Open Sans', sans-serif;
+}
+header{
+  font-family: 'Poppins', sans-serif;
+}
+.logo{
+ margin-left:10rem ;
+}
+header a{
+ float: right;
+ text-decoration: none;
+ color:hsl(321, 100%, 78%) ;
+ font-size:8px;
+border:1px solid hsl(321, 100%, 78%);
+border-radius: 50px;
+width: 100px;
+height: 20px;
+text-align: center;
+padding-top:5px ;
+}
+.build{
+ text-align: center;
+ padding:100px;
+ line-height:40px ;
+}
+h1,h2{
+  color:hsl(192, 100%, 9%); 
+}
+.build p{
+ margin-top:20px ;
+ font-size:15px;
+}
+.click,.free{
+margin:40px ;
+width:250px ;
+height:50px ;
+background-color:hsl(322, 100%, 66%);
+border: none;
+border-radius:50px ;
+color: white;
+cursor: pointer;
+}
+button:hover{
+  color: black;
+}
+.screenmock{
+ width:700px ;
+margin-left:20rem ;
+}
+.entity{
+ display: flex;
+text-align: center;
+margin-left: 200px;
+padding:100px 0px 0px 20px;
+}
+.two{
+ margin-left:30em;
+}
+.icon{
+ height:30px;
+}
+.icons{
+ width:20px ;
+}
+.figure{
+font-weight: 900;
+font-size:4rem;
+padding-left:25px ;
+color:hsl(192, 100%, 9%) ;
+}
+.feature, .app,.chat{
+ display: flex;
+ margin-left: 200px;
+ padding: 100px 0px 0px 20px;
+}
+.three{
+ padding-top:120px ;
+ width:400px ;
+}
+.four,.users{
+ width:40%;
+ height: 40%;
+ margin-left:200px ;
+ padding-top:30px ;
+}
+.flow{
+width: 40%;
+height: 40%;
+ padding-top: 30px;
+}
+.five{
+  padding-top: 120px;
+  width: 400px;
+  margin-left: 200px;
+}
+.huddle{
+ padding-top: 120px;
+  width: 400px;
+}
+.ready{
+ text-align: center;
+ margin-top:10px ;
+}
+.lorem{
+  display: flex;
+  background-color: hsl(192, 100%, 9%);
+  width:300%;
+  height:100% ;
+  margin-top:-5px ;
+  color: white;
+}
+.letter{
+  margin-left:20rem;
+}
+.form{
+  display: flex;
+  padding-top:30px ;
+}
+.info{
+  margin-left:10rem;
+}
+.sub{
+  margin-left:2rem ;
+  width:8rem ;
+  background-color:hsl(321, 93%, 49%);
+  border:none ;
+  border-radius:4px ;
+  cursor: pointer;
+  color: white;
+}
+.section{
+  margin-top:15px ;
+  font-size:10px;
+  line-height:25px ;
+}
+input{
+  height:25px;
+  border: none;
+  border-radius: 4px;
+}
+.feet{
+  filter: contrast(500%);
+}
